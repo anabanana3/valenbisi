@@ -26,7 +26,7 @@
         "NSMicrophoneUsageDescription": "Allow $(PRODUCT_NAME) to access your microphone"
       },
       "config": {
-        "googleMapsApiKey": "AIzaSyA5xL4VrVaDB5i78ibPY62szhmqKmIIQ2w"
+        "googleMapsApiKey": "$(APIKEY)"
       }
     },
     "android": {
@@ -40,7 +40,7 @@
       ],
       "config": {
         "googleMaps": {
-          "apiKey": "AIzaSyA5xL4VrVaDB5i78ibPY62szhmqKmIIQ2w"
+          "apiKey": "$(APIKEY)"
         }
       }
     },
